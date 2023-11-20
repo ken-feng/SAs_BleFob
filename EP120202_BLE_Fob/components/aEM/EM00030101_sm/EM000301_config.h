@@ -1,0 +1,12 @@
+/*
+    国密算法功能模块
+*/
+
+#ifndef _EM000301_CONFIG_H
+#define _EM000301_CONFIG_H
+
+#define EM_000301_CONFIG_FEATURE_CRYPTO_SM2    0
+#define EM_000301_CONFIG_FEATURE_CRYPTO_SM3    1
+#define EM_000301_CONFIG_FEATURE_CRYPTO_SM4    1
+
+#endif

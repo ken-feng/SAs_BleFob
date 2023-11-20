@@ -1,0 +1,10 @@
+/*
+    基础函数模块
+*/
+
+#ifndef _EM000101_CONFIG_H
+#define _EM000101_CONFIG_H
+
+#define EM_000101_CONFIG_FEATURE_OPR_FLASH          1
+#define EM_000101_CONFIG_FEATURE_RAM_MANAGEMENT     1
+#endif

@@ -1,0 +1,9 @@
+*.vscode/*
+*.d
+*.o
+*.su
+*.mk
+*.ld
+*.ldt
+Debug/*
+/Debug/
