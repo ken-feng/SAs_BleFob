@@ -12,7 +12,7 @@
 #define _APP_PREINCLUDE_H_
 
 #define APP_VERSION_H	0x05
-#define APP_VERSION_L	0x00
+#define APP_VERSION_L	0x01
 
 
 #define FEATRUE_UART_USE_PTC67  1   /*1：PTC67  0:串口日志使用PTA17 18*/
@@ -39,6 +39,8 @@
 
 #define PTB0_IRQ_PIN		1/*	1: PTB0   0: PTC16*/
 
+//Modify (Ken):FOB-V0501 NO.1 -20231225
+#define	__FIT_Aeon_H
 
 //#define CAN_DEBUG_MODE
 

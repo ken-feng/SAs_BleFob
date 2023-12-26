@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "C:\Users\chenf\OneDrive\Desktop\Aeon_Hex_for_231231\Vehicle\EP110202_BLE_Vehicle_V0C02_231225.hex"
+qc
+
+qc

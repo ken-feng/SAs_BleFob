@@ -83,7 +83,12 @@
  * On KW38, max Tx power is 5.6 dBm, rounded to 6 dBm. Use max TX power 
 */
 #ifndef mAdvertisingDefaultTxPower_c
+//Modify (Ken):FOB-V0501 NO.1 -20231225
+#if defined __FIT_Aeon_H
+#define mAdvertisingDefaultTxPower_c    0
+#else
 #define mAdvertisingDefaultTxPower_c    6
+#endif
 #endif
 
 /* Default Tx Power on the connection channel.
@@ -91,7 +96,12 @@
  * On KW38, max Tx power is 5.6 dBm, rounded to 6 dBm. Use max TX power
 */
 #ifndef mConnectionDefaultTxPower_c
+//Modify (Ken):FOB-V0501 NO.1 -20231225
+#if defined __FIT_Aeon_H
+#define mConnectionDefaultTxPower_c     0
+#else
 #define mConnectionDefaultTxPower_c     6
+#endif
 #endif
 
 /* Scan FIFO lockup detection interval in milliseconds. If no advertising frame

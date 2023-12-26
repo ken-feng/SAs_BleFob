@@ -38,8 +38,14 @@
 
 /* Profile Parameters */
 
+//Modify (Ken):FOB-V0501 NO.1 -20231225
+#if defined __FIT_Aeon_H
+#define gFastConnMinAdvInterval_c       160 /* 100 ms */
+#define gFastConnMaxAdvInterval_c       176 /* 110 ms */
+#else
 #define gFastConnMinAdvInterval_c       32 /* 20 ms */
 #define gFastConnMaxAdvInterval_c       48 /* 30 ms */
+#endif
 
 // #define gFastConnMinAdvInterval_c       400 /* 500 ms */
 // #define gFastConnMaxAdvInterval_c       400 /* 500 ms */
